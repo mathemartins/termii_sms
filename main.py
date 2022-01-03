@@ -25,4 +25,36 @@ def send_message(receiver: str, sender: str, message: str, api_key: str):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    send_message()
+    msg = send_message(
+        '2348034743223',
+        'AMJU',
+        'Greetings From AMJU Loans, Our Loan systems is back! '
+        'Live and active! with improved server upgrades and advanced system architecture. '
+        'Start applying for loans today',
+        'TLZVWxYv8Q60Dnyga5awI4XoE9imuSfI3iWXLBrpwWiuG1PWpDghwRJtMdE99H'
+    )
+    msg2 = send_message(
+        '2347032692137',
+        'AMJU',
+        'Greetings From AMJU Loans, Our Loan systems is back! '
+        'Live and active! with improved server upgrades and advanced system architecture. '
+        'Start applying for loans today',
+        'TLZVWxYv8Q60Dnyga5awI4XoE9imuSfI3iWXLBrpwWiuG1PWpDghwRJtMdE99H'
+    )
+    msg3 = send_message(
+        '2348033930074',
+        'AMJU',
+        'Greetings From AMJU Loans, Our Loan systems is back! '
+        'Live and active! with improved server upgrades and advanced system architecture. '
+        'Start applying for loans today',
+        'TLZVWxYv8Q60Dnyga5awI4XoE9imuSfI3iWXLBrpwWiuG1PWpDghwRJtMdE99H'
+    )
+    msg4 = send_message(
+        '2348032927221',
+        'AMJU',
+        'Greetings From AMJU Loans, Our Loan systems is back! '
+        'Live and active! with improved server upgrades and advanced system architecture. '
+        'Start applying for loans today',
+        'TLZVWxYv8Q60Dnyga5awI4XoE9imuSfI3iWXLBrpwWiuG1PWpDghwRJtMdE99H'
+    )
+    print(msg, msg2, msg3, msg4)
